@@ -9,6 +9,8 @@ master:
 replica:
   persistence:
     enabled: false
+image:
+  repository: bitnamilegacy/redis
 
 volumePermissions:
   enabled: true
