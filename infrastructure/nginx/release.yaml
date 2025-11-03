@@ -4,7 +4,7 @@ metadata:
   name: nginx
   namespace: cluster-config
 spec:
-  targetNamespace: cluster-config
+  targetNamespace: nginx
   releaseName: nginx-ingress-controller
   chart:
     spec:
